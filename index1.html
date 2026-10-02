@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="../testjs.css">
+    <script src="main1.js" defer></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <form class="left" id="studentForm">
+            <h2>Student Information</h2>
+            <input type="text" id="name" placeholder="Enter student name" required>
+            <br><br>
+            <input type="number" id="score" placeholder="Enter score" required>
+            <br><br>
+            <select id="gender" required >
+                <option value="" hidden selected disabled>Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+
+            <hr>
+            <p id="nameResult"></p>
+            <p id="genderResult"></p>
+            <p id="scoreResult"></p>
+            <button id="showBtn" type="submit">Show Student</button>
+            <button id="clearBtn" type="button">Clear</button>
+
+        </form>
+    </div>
+
+
+</body>
+</html>
